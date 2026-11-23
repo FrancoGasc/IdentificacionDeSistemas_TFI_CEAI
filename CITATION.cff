@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "Si usás este software en un trabajo publicado, citalo así."
+title: "IdentificacionSistemasPy: identificación paramétrica de sistemas SISO en Python"
+abstract: >-
+  Librería de identificación paramétrica de sistemas de una entrada y una
+  salida en tiempo discreto, con cuatro estructuras de la familia de modelos de
+  error de predicción: ARX, ARMAX, Output Error y Box-Jenkins. Cada estructura
+  se evalúa con su propio predictor óptimo a un paso, condición que vuelve
+  comparables el FIT y el criterio de información de Akaike entre estructuras.
+  Validada contra la System Identification Toolbox de Matlab sobre seis plantas
+  sintéticas de parámetros conocidos.
+type: software
+authors:
+  - family-names: Gasciunas
+    given-names: Franco Ezequiel
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/FrancoGasc/IdentificacionDeSistemas_TFI_CEAI"
+keywords:
+  - system identification
+  - identificación de sistemas
+  - ARX
+  - ARMAX
+  - Box-Jenkins
+  - output error
+  - prediction error method
+  - control
+references:
+  - type: thesis
+    title: >-
+      Identificación de sistemas y gemelos digitales: una plataforma para la
+      validación segura de lazos de control
+    authors:
+      - family-names: Gasciunas
+        given-names: Franco Ezequiel
+    thesis-type: "Trabajo Final Integrador"
+    institution:
+      name: >-
+        Universidad de Buenos Aires, Facultad de Ingeniería, Carrera de
+        Especialización en Automatización Industrial
